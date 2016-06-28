@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
 
 namespace Api0.Models
 {
     
    public  class Users
     {
-        [Key,]
-      public string  Id                    {get;set;}
+     public string  Id                    {get;set;}
      public string  Email                 {get;set;}
      public string  EmailConfirmed        {get;set;}
      public string  PasswordHash          {get;set;}
